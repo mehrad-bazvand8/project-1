@@ -21,10 +21,9 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 27px;
     display: flex;
     align-items: center;
   }
@@ -46,7 +45,7 @@
   }
   
   .nav-item {
-    height: 80px;
+    height: 60px;
   }
   
   .nav-links {
