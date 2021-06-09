@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+         برای دریافت جدید ترین خبر ها به ما بپیوندید
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+        در هر زمان می توانید اشتراک خود را لغو کنید.
         </p>
         <div className='input-areas'>
           <form>
@@ -21,42 +21,38 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>اشتراک در</Button>
           </form>
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <h2>درباره ما</h2>
+            <Link to='/sign-up'>چگونه کار میکند</Link>
+            <Link to='/'>توضیعات</Link>
+            <Link to='/'>مشاغل</Link>
+            <Link to='/'>سرمایه گذاران</Link>
+            <Link to='/'>شرایط استفاده از خدمات</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>با ما تماس بگیرید</h2>
+            <Link to='/'>مخاطب</Link>
+            <Link to='/'>حمایت کردن</Link>
+            <Link to='/'>مقصد</Link>
+            <Link to='/'>حمایت مالی</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>فیلم ها</h2>
+            <Link to='/'>ارسال ویدیو</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <h2>رسانه های اجتماعی</h2>
+            <Link to='/'>اینستگرام</Link>
+            <Link to='/'>یوتیوب</Link>
+            <Link to='/'>تیوتر</Link>
           </div>
         </div>
       </div>
@@ -64,11 +60,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              SEREN
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>joker © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
