@@ -8,6 +8,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <img src="/img/joker.jpg " />
+      <img className='bg--mobile' src="/img/bgmobile.PNG" />
       <h1>Welcome To Page Mehrad </h1>
       <p>Axs Me ?</p>
       <div className='hero-btns'>
