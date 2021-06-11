@@ -52,7 +52,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                محصولات
+                درباره من
               </Link>
             </li>
 
